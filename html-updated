@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <title>MCB</title>
+</head>
+<body>
+    <header>
+      <div class="topnav">
+        <a href="index.html"><img class="logo" src="imgs/mcb_logo.jpg" alt="logo do MCB" width="138px" height="30px"></a>
+        <button class="material-symbols-outlined">search</span></button><!--adicionar interação de search dropdown-->
+        <span class="language">PT | EN</span>
+      </div>
+      <div class="btmnav">
+        <div class="dropdown1">
+          <button class="navbtn1" id="navButton">O MUSEU</button>
+            <div class="dropdown-content-museu">
+              <li><a href="#" id="museuLink">SOBRE</a></li> 
+              <li><a href="#" id="museuLink">VISITE O MUSEU</a></li>
+              <li><a href="#" id="museuLink">MCB NA MÍDIA</a></li>
+              <li><a href="#" id="museuLink">PRÊMIO DESIGN MCB</a></li>
+            </div>
+         </div>
+         <div class="dropdown2">
+            <button class="navbtn2" id="navButton">PROGRAMAÇÃO</button>
+              <div class="dropdown-content-prog">
+                <li><a href="#" id="programacaoLink">EXPOSIÇÕES</a></li>
+                <li><a href="#" id="programacaoLink">MÚSICA</a></li>
+                <li><a href="#" id="programacaoLink">DEBATES E PALESTRAS</a></li>
+                <li><a href="#" id="programacaoLink">CURSOS E OFICINAS</a></li>
+                <li><a href="#" id="programacaoLink">LANÇAMENTOS</a></li>
+                <li><a href="#" id="programacaoLink">ESPECIAL</a></li>
+                <li><a href="#" id="programacaoLink">MCB 50 ANOS</a></li>
+              </div>
+          </div>
+          <div class="dropdown3">
+            <button class="navbtn3" id="navButton">ACERVO</button>
+              <div class="dropdown-content-acervo">
+                <li><a href="#" id="acervoLink">SOBRE</a></li>
+                <li><a href="#" id="acervoLink">MUSEOLÓGICO</a></li>
+                <li><a href="#" id="acervoLink">ARQUIVÍSTICO</a></li>
+                <li><a href="#" id="acervoLink">ARTIGOS</a></li>
+                <li><a href="#" id="acervoLink">BIBLIOTECA</a></li>
+              </div>
+          </div>
+          <div class="dropdown4">
+            <button class="navbtn4" id="navButton">EDUCATIVO</button>
+              <div class="dropdown-content-edu">
+                <li><a href="#" id="eduLink">APRESENTAÇÃO</a></li>
+                <li><a href="#" id="eduLink">AGENDA</a></li>
+                <li><a href="#" id="eduLink">PROJETOS</a></li>
+                <li><a href="#" id="eduLink">PARCERIAS</a></li>
+                <li><a href="#" id="eduLink">MOSTRAS</a></li>
+              </div>
+          </div>
+        <button class="navbtn-hoje" onclick="openNav()">HOJE</button>
+          <!--adicionar janela lateral-->
+      </div>
+    </header>
+    <main>
+      <div class="container-hero">
+        <div class="heroimages">
+          <a href="#"><img class="esculturas-ludicas" src="imgs/esculturas-ludicas-main.jpg" alt="esculturas ludicas"></a>
+        </div>
+        <div class="heroinfo">
+          <div class="herotop">
+            <span>
+              <span class="herotitulo">ESCULTURAS LÚDICAS</span>
+            </span>
+            <span class="material-symbols-outlined" id="arrow-right">
+              arrow_forward_ios
+            </span>
+            <span class="material-symbols-outlined" id="arrow-left">
+              arrow_back_ios
+            </span>
+          </div>
+          <div class="herobtm">
+            <span class="heroartista">
+              Sara Rosenberg
+            </span>
+          </span>
+          <span>
+            <span class="herodata">
+              Visitação até 12 de Abril
+            </span>
+          </div>
+        </div>
+        <section>
+          LANÇAMENTOS LANÇAMENTOS LANÇAMENTOS LANÇAMENTOS LANÇAMENTOS LANÇAMENTOS <!--add marquee prop in css-->
+        </section>
+      <div class="lançamentos">
+        <div class="destaque1">
+          <a href="#"><img class="banda-dos-curumins" src="imgs/banda-dos-curumins-main.png" alt="banda dos curumins"></a>
+          <span>BANDA DOS CURUMINS</span>
+          <span>06 de Novembro, Domingo</span>
+          <span>11h</span>
+          <button id="saiba-mais">SAIBA MAIS</button>
+        </div>
+        <div class="destaque2">
+          <span>CASAS DO SERTÃO</span>
+          <span>19 de Agosto, Sexta-feira</span>
+          <span>19h às 21h</span>
+          <button id="saiba-mais">SAIBA MAIS</button>
+          <a href="#"><img class="casas-do-sertao" src="imgs/casas-do-sertao.png" alt="casas do sertão"></a>
+        </div>
+        <div class="destaque3">
+          <a href="#"><img class="cartografias" src="imgs/cartografias-que-transbordam.png" alt="cartografias que transbordam"></a>
+          <span>CARTOGRAFIAS QUE TRANSBORDAM</span>
+          <span>25 de Junho, Sábado</span>
+          <span>11h</span>
+          <button id="saiba-mais">SAIBA MAIS</button>
+        </div>
+        <span class="ver-mais">VER MAIS</span><span class="arrow=right">
+          <span class="material-symbols-outlined">
+            arrow_forward_ios
+          </span>
+        </span>
+      </div>
+      <div class="novo-endereço">
+        <span>NOVO ENDEREÇO</span>
+        <img class="casa-modernista" src="imgs/novo-endereço.jpg" alt="novo endereço">
+        <span>R. Santa Cruz, 325 - Vila Mariana, São Paulo - SP, 04121-000</span>
+      </div>
+      <div class="newsletter-img">
+        <img class="newsletter-parent" src="imgs/newsletter-index.jpg" alt="obra de #">
+      </div>
+      <div class="newsletter-text">
+        <span>RECEBA NOSSA PROGRAMAÇÃO</span>
+        <p>Mais informações sobre obras em exibição, eventos, adições à nossa coleção e muito mais em nossa newsletter.</p>
+        <span>Endereço de E-mail:</span>
+        <input type="email">
+        <button class="registrar">REGISTRAR</button>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-top">
+        <span>museu da casa brasileira</span>
+        <a href="https://www.instagram.com/mcb_org/"><img id="footer-logo" src="imgs/instagram-logo.png" alt="logo do instagram"></a>
+        <a href="https://www.facebook.com/museucasabrasileira"><img id="footer-logo" src="imgs/facebook-logo.png" alt="logo do facebook"></a>
+        <a href="https://www.youtube.com/@MuseudaCasaBrasileiraSP"><img id="footer-logo" src="imgs/youtube-logo.png" alt="logo do youtube"></a>
+        <a href="https://www.linkedin.com/company/museucasabrasileira/"><img id="footer-logo" src="imgs/linkedin-logo.png" alt="logo do linkedin"></a>
+        <a href="https://twitter.com/mcb_org"><img id="footer-logo" src="imgs/twitter-logo.png" alt="logo do twitter"></a>
+      </div>
+      <div class="footer-mid">
+        <section class="contato">
+          <span>CONTATO</span>
+          <a href="tel:1130263908">(11) 3026-3908</a>
+          <a href="mailto:comunicacao@mcb">comunicacao@mcb</a>
+        </section>
+        <section class="endereço">
+          <span>ENDEREÇO</span>
+          <a href="https://maps.app.goo.gl/ipZFqvFSidYayyix7">R. Santa Cruz, 325 - Vila Mariana, São Paulo - SP, 04121-000</a>
+        </section>
+        <section class="entrada">
+          <span>ENTRADA</span>
+          <span>Inteira: R$ 20,00</span>
+          <span>Meia: R$ 10,00</span>
+          <span>Sexta-feira: Gratuito</span>
+        </section>
+        <section class="horarios">
+          <span>HORÁRIOS</span>
+          <span>Terça a Domingo: 10h - 18h</span>
+          <span>Segunda-feira: fechado</span>
+        </section>
+      <div class="footer-end">
+        <img class="logo-sp" src="imgs/sp-logo.png" alt="logo do governo do estado de São Paulo">
+        <button>SIC</button>
+        <button>OUVIDORIA</button>
+        <button>TRANSPARÊNCIA</button>
+      </div>
+      </div>
+    </footer>
+</body>
+</html>
