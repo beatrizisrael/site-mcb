@@ -1,0 +1,325 @@
+@import url(https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@400);
+@import url(https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0);
+@font-face {
+    font-family: nexusMix;
+    src: url(nexusmix-regular.otf);
+}
+@font-face {
+    font-family: nexusmixBold;
+    src: url(nexusmix-bold.otf);
+}
+@font-face {
+    font-family: nexusmixItalic;
+    src: url(nexusmix-italic.otf);
+}
+@font-face {
+    font-family: nexusSans;
+    src: url(nexussans-regular.otf);
+}
+@font-face {
+    font-family: nexussansBold;
+    src: url(nexussans-bold.otf);
+}
+
+/*header*/
+header {
+    border-bottom: 4px solid #191919;
+}
+
+.topnav {
+    padding-left: 64px;
+    padding-right: 64px;
+    background-color: white;
+    color: #191919;
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+
+header img {
+    margin-left: 8px;
+}
+
+header .material-symbols-outlined {
+    background-color: transparent;
+    border: none;
+    color: #191919;
+    position: relative;
+    left: 1300px;
+    cursor: pointer;
+}
+
+header .language {
+    float: right;
+    font-family: nexusSans;
+    font-size: 16px;
+    margin-top: 8px;
+    font-weight: bold;
+}
+
+.btmnav {
+    background-color: white;
+    color: #191919;
+    position: relative;
+    display: flex;
+}
+
+.navbtn1 {
+    cursor: pointer;
+    background-color: transparent;
+    color: #191919;
+    border: none;
+    font-family: nexusSans;
+    font-weight: bold;
+    font-size: 16px;
+    padding-left: 70px;
+    padding-right: 64px;
+}
+
+.dropdown1:hover .dropdown-content-museu {
+    display: block;
+}
+
+.dropdown-content-museu {
+    display: none;
+    position: absolute;
+    float:left;
+    top: 25px;
+    width: 100%;
+    background-color: #0A4E9F;
+    list-style: none;
+    padding-bottom: 32px;
+    padding-left: 70px;
+    border-bottom: 4px solid #191919;
+}
+
+.dropdown-content-museu a {
+    color: white;
+    text-decoration-line: none;
+    font-family: nexusSans;
+    font-weight: bold;
+}
+
+
+.navbtn2 {
+    cursor: pointer;
+    background-color: transparent;
+    color: #191919;
+    border: none;
+    font-family: nexusSans;
+    font-weight: bold;
+    font-size: 16px;
+    padding-right: 64px;
+}
+
+.dropdown2:hover .dropdown-content-prog {
+    display: block;
+}
+
+.dropdown-content-prog {
+    display: none;
+    position: absolute;
+    float: left;
+    width: 100%;
+    margin-left: -207px;
+    top: 25px;
+    background-color: #752B94;
+    list-style: none;
+    padding-bottom: 32px;
+    border-bottom: 4px solid #191919;
+}
+
+.dropdown-content-prog a {
+    color: white;
+    text-decoration-line: none;
+    font-family: nexusSans;
+    font-weight: bold;
+    margin-left: 215px;
+}
+
+
+.navbtn3 {
+    cursor: pointer;
+    background-color: transparent;
+    color: #191919;
+    border: none;
+    font-family: nexusSans;
+    font-weight: bold;
+    font-size: 16px;
+    padding-right: 64px;
+}
+
+.dropdown3:hover .dropdown-content-acervo {
+    display: block;
+}
+
+.dropdown-content-acervo {
+    display: none;
+    position: absolute;
+    width: 100%;
+    top: 25px;
+    background-color: #C3121A;
+    margin-left: -409px;
+    list-style: none;
+    padding-bottom: 32px;
+    border-bottom: 4px solid #191919;
+}
+
+.dropdown-content-acervo a {
+    color: white;
+    text-decoration-line: none;
+    font-family: nexusSans;
+    font-weight: bold;
+    margin-left: 415px;
+}
+
+.navbtn4 {
+    cursor: pointer;
+    background-color: transparent;
+    color: #191919;
+    border: none;
+    font-family: nexusSans;
+    font-weight: bold;
+    font-size: 16px;
+    padding-right: 64px;
+}
+
+.dropdown4:hover .dropdown-content-edu {
+    display: block;
+}
+
+.dropdown-content-edu {
+    display: none;
+    position: absolute;
+    width: 100%;
+    top: 25px;
+    background-color: #F4792B;
+    margin-left: -547px;
+    list-style: none;
+    padding-bottom: 32px;
+    border-bottom: 4px solid #191919;
+}
+
+.dropdown-content-edu a {
+    color: white;
+    text-decoration-line: none;
+    font-family: nexusSans;
+    font-weight: bold;
+    margin-left: 552px;
+}
+
+.navbtn-hoje {
+    cursor: pointer;
+    background-color: transparent;
+    color: #191919;
+    border: none;
+    font-family: nexusSans;
+    font-weight: bold;
+    font-size: 16px;
+    padding-right: 64px;
+    position: absolute;
+    right: 0px;
+}
+
+header li {
+    padding-top: 24px;
+}
+
+/*estilizar dropdown e fazer funcional com hover ou click*/
+
+/*header*/
+
+body {
+    margin: 0;
+}
+
+/*hero*/
+.heroimages {
+
+}
+
+.esculturas-ludicas {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    object-position: 25% 50%;
+    margin: none;
+}
+
+.heroinfo {
+    background-color: #FEC014;
+    border-top: 2px solid #191919;
+    border-bottom: 2px solid #191919;
+    font-family: nexusSans;
+    font-weight: bold;
+}
+
+.herotop {
+    border-bottom: 2px solid #191919;
+    position: relative;
+}
+
+.herotitulo {
+    font-size: 24px;
+    margin-left: 64px;
+}
+
+.herotop .material-symbols-outlined {
+    background-color: white;
+    padding: 8px;
+    position: relative;
+    float: right;
+    display: inline;
+}
+
+#arrow-left {
+    border-left: 2px solid #191919;
+}
+
+#arrow-right {
+    border-left: 2px solid #191919;
+}
+
+/*hero*/
+
+.banda-dos-curumins {
+    width: 760px;
+    height: 400px;
+    object-fit: cover;
+    object-position: 25% 75%;
+}
+
+.casas-do-sertao {
+    width: 760px;
+    height: 400px;
+    object-fit: cover;
+    object-position: 25% 75%;
+}
+
+.cartografias {
+    width: 760px;
+    height: 400px;
+    object-fit: cover;
+    object-position: 25% 75%;
+}
+
+.newsletter-parent {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    object-position: 25% 0%;
+}
+
+/*footer*/
+#footer-logo {
+    width: 50px;
+    height: 50px;
+}
+
+footer {
+    background-color: #191919;
+}
+
+footer span {
+    color: white;
+}
+/*footer*/
