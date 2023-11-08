@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botões</title>
+    <style>
+        .container1 {
+            margin: 0 auto;
+            background-color: #887ce9;
+            width: 50%;
+            text-align: center;
+            padding: 24px;
+            margin-bottom: 48px;
+            margin-top: 16px;
+            border-radius: 24px;
+            box-shadow: 2px 2px 5px 1px #191919;
+            height: 200px;
+        }
+
+        .container2 {
+            margin: 0 auto;
+            background-color: #887ce9;
+            width: 50%;
+            text-align: center;
+            padding: 24px;
+            margin-bottom: 48px;
+            margin-top: 16px;
+            border-radius: 24px;
+            box-shadow: 2px 2px 5px 1px #191919;
+            height: 250px;
+        }
+
+
+        h1 {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: #191919;
+        }
+        
+        p {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        button {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bold;
+            font-size: 24px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            padding-left: 24px;
+            padding-right: 24px;
+            background-color: white;
+            border: 2px solid #191919;
+            border-radius: 24px;
+            box-shadow: 4px 6px 0px 1px #191919;
+        }
+
+        button:active {
+            box-shadow: none;
+            margin-top: 4px;
+            margin-left: 4px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container1">
+        <h1>Trocando de texto</h1>
+        <p id="meuParagrafo">Esse é o primeiro texto.</p>
+        <button onclick="mudarTexto()">TROCAR</button>
+    </div>
+    <div class="container2">
+        <h1>Números</h1>
+        <p>Insira um número e descubra se ele é positivo, negativo ou neutro.</p>
+        <button onclick="obterNumero()">INSERIR</button>
+        <p id="numResultado">Resultado:</p>
+    </div>
+    <script>
+        function mudarTexto() 
+	{
+	  var textoAtual = document.getElementById("meuParagrafo").innerHTML;
+	  if(textoAtual == "Esse é o primeiro texto.") 
+	  {
+		document.getElementById("meuParagrafo").innerHTML = "Esse é o segundo texto.";
+	  } 
+	  else 
+	  {
+		document.getElementById("meuParagrafo").innerHTML = "Esse é o primeiro texto.";
+	  }
+	}
+	
+	function obterNumero()
+	{
+	  
+	  var numero;
+	  var numPar=true;
+
+	  numero = prompt("Digite um número ૮ ˶ᵔ ᵕ ᵔ˶ ა");
+	  
+	  if(numero != null && !isNaN(numero))
+	  {
+
+	  }
+	  else
+	  {
+		alert ("Você não digitou um número (◞‸◟；)");
+	  }
+      
+	  if((numero % 2) == 0)
+	  {
+		document.getElementById("numResultado").innerHTML = numero + " é par.";
+	  }
+	  else
+	  {
+		document.getElementById("numResultado").innerHTML = numero + " é ímpar.";
+	  }
+       
+      if((numero == 0)) 
+      {
+        document.getElementById("numResultado").innerHTML = numero + " é neutro.";
+      }
+
+	}  
+	  
+
+	
+
+    </script>
+</body>
+</html>
