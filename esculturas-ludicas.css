@@ -240,6 +240,8 @@ main {
     width: 100vw;
     max-width: 100%;
     height: auto;
+    display: flex;
+    border-bottom: 4px solid #191919;
 }
 
 .main__img {
@@ -257,7 +259,7 @@ main {
     left: 100px;
     display: flex;
     flex-wrap: wrap;
-    font-family: NexusSans Bold;
+    font-family: NexusSans Bold, "ff-nexus-sans", sans-serif;
     font-size: 80px;
     width: 790px;
 }
@@ -276,9 +278,10 @@ main {
 
 aside {
     background-color: #FEC014;
-    width: 150%;
+    width: 100%;
     height: auto;
     box-sizing: border-box;
+    border-right: 4px solid #191919;
 }
 
 .aside__container {
@@ -322,7 +325,7 @@ aside {
 aside button {
     margin-top: 48px;
     padding: 8px 24px;
-    font-family: NexusSans Bold;
+    font-family: NexusSans Bold, "ff-nexus-sans", sans-serif;
     font-size: 24px;
     background-color: white;
     color: #191919;
@@ -348,14 +351,14 @@ aside button:active {
 }
 
 .artigo__titulo {
-    font-family: NexusMix Bold;
+    font-family: NexusMix Bold, "ff-nexus-sans", sans-serif;
     font-size: 56px;
     text-align: justify;
     padding-bottom: 12px;
 }
 
 .main__artigo p {
-    font-family: NexusMix;
+    font-family: NexusMix, "ff-nexus-mix", serif;
     padding-bottom: 32px;
     font-size: 18px;
     text-align: justify;
@@ -402,7 +405,7 @@ footer {
 }
 
 .footer__top__titulo {
-    font-family: NexusMix Bold;
+    font-family: NexusMix Bold, "ff-nexus-mix", serif;
     font-size: 32px;
 }
 
@@ -421,12 +424,12 @@ footer {
 }
 
 .footer__mid__titulo {
-    font-family: NexusSans Bold;
+    font-family: NexusSans Bold, "ff-nexus-sans", sans-serif;
     font-size: 20px;
 }
 
 .footer__mid li {
-    font-family: NexusMix;
+    font-family: NexusMix, "ff-nexus-mix", serif;
     padding-top: 8px;
     padding-bottom: 16px;
 
@@ -457,7 +460,7 @@ footer {
 
 .footer__end__buttons a {
     all: unset;
-    font-family: NexusSans;
+    font-family: NexusSans, "ff-nexus-sans", sans-serif;
     font-size: 14px;
     border: 2px solid white;
     padding-top: 6px;
